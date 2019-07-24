@@ -12,6 +12,7 @@
 		51F8CD0122E73D1200DAB62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F8CCFF22E73D1200DAB62B /* Main.storyboard */; };
 		51F8CD0322E73D1400DAB62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F8CD0222E73D1400DAB62B /* Assets.xcassets */; };
 		51F8CD0622E73D1400DAB62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F8CD0422E73D1400DAB62B /* LaunchScreen.storyboard */; };
+		51F8CD0E22E7AEDF00DAB62B /* ExpandableNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8CD0D22E7AEDF00DAB62B /* ExpandableNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		51F8CD0222E73D1400DAB62B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F8CD0522E73D1400DAB62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F8CD0722E73D1400DAB62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F8CD0D22E7AEDF00DAB62B /* ExpandableNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		51F8CCEF22E73D1200DAB62B = {
 			isa = PBXGroup;
 			children = (
+				51F8CD0D22E7AEDF00DAB62B /* ExpandableNames.swift */,
 				51F8CCFA22E73D1200DAB62B /* UITableView */,
 				51F8CCF922E73D1200DAB62B /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F8CD0E22E7AEDF00DAB62B /* ExpandableNames.swift in Sources */,
 				51F8CCFE22E73D1200DAB62B /* ViewController.swift in Sources */,
 				51F8CCFC22E73D1200DAB62B /* AppDelegate.swift in Sources */,
 			);
@@ -290,7 +294,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ga.gcmms.UITableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +311,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ga.gcmms.UITableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
